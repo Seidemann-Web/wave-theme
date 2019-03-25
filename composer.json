@@ -1,5 +1,5 @@
 {
-    "name": "oxid-esales/wave-theme",
+    "name": "seidemann-web/wave-theme",
     "description": "This is Wave Theme for OXID eShop.",
     "type": "oxideshop-theme",
     "keywords": [
@@ -12,6 +12,9 @@
         "GPL-3.0-only"
     ],
     "minimum-stability": "dev",
+    "replace": {
+        "oxid-esales/wave-theme": "self.version"
+    },
     "extra": {
         "oxideshop": {
             "target-directory": "wave",
